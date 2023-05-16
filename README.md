@@ -26,4 +26,4 @@ while True:
     utime.sleep(0.1)
    ```
 ## PUEBRA
-![images](GITHUB/Captura de pantalla 2023-05-15 181105.png)
+![images](https://github.com/elizabethAEGA2/elizabeth/blob/main/GITHUB/Captura%20de%20pantalla%202023-05-15%20181105.png)
