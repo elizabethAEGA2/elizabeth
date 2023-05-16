@@ -25,7 +25,5 @@ while True:
     # Retardo para evitar lecturas rápidas y estables
     utime.sleep(0.1)
    ```
-   
-    
-
-![imaes]("C:\Users\Latitude\Pictures\Screenshots\Captura de pantalla 2023-05-15 181105.png")
+## PUEBRA
+![images](GITHUB/Captura de pantalla 2023-05-15 181105.png)
