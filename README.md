@@ -30,43 +30,6 @@ from adafruit_display_text import wrap_text_to_pixels
 from adafruit_display_text.bitmap_label import Label
 from adafruit_ticks import ticks_add, ticks_less, ticks_ms
 
-
-# Choose your own prompt and wait messages, either by changing it below inside
-# the """triple quoted""" string, or by putting it in your settings.toml file,
-# like so:
-#
-# MY_PROMPT="Give me an idea for a gluten free, keto dinner. Write one sentence"
-# PLEASE_WAIT="Cooking something up just for you"
-#
-# Experimentation is best to figure out what works. Usually you'll want to ask
-# for just one sentence or paragraph, since the 128x32 pixel screen can't hold
-# much text!
-
-# Here are some that the author found worked reasonably well:
-
-# Give me an idea for a plant-based dinner. Write one sentence
-#
-# Give jepler (they/them) a cliched and flowery description as a comic book
-# supervillain. write one sentence.
-#
-# Invent and describe an alien species. write one sentence
-#
-# Invent a zany 'as seen on' product that can't possibly work. One sentence
-#
-# Tell a 1-sentence story about a kitten and a funny mishap
-#
-# Make up a 1-sentence fortune for me
-#
-# In first person, write a 1-sentence story about an AI avoiding boredom in a creative way.
-#
-# Pick an everyday object (don't say what it is) and describe it using only the
-# ten hundred most common words.
-#
-# Invent an alien animal or plant, name it, and vividly describe it in 1
-# sentence
-#
-# Invent and vividly describe an alien species. write one paragraph
-
 prompt=os.getenv("MY_PROMPT", """
 Dame un  10 FRUTAS Y VERDURAS """).strip()
 please_wait=os.getenv("Por favor, Espera un momento", """
